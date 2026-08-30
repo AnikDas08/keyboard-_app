@@ -1,0 +1,106 @@
+# XcodeGen spec. Run `xcodegen generate` in this folder to produce
+# AnanseKeyboard.xcodeproj, then open it in Xcode.
+#   brew install xcodegen   (one time)
+#   cd native/ios && xcodegen generate && open AnanseKeyboard.xcodeproj
+#
+# Replace the bundle identifiers and DEVELOPMENT_TEAM with your own.
+#
+# App Group: both targets declare the group.app.ananse.keyboard App Group so
+# the host app's writer and message composer can read the glyph style and hanging-line
+# weight the keyboard extension saves (UserDefaults are not shared between an
+# extension and its host app without one). The group ID must be registered
+# under YOUR Apple Developer team (Certificates, Identifiers & Profiles →
+# Identifiers → App Groups) — if you change it, also change appGroupID in
+# Keyboard/KeyboardViewController.swift and App/InAppKeyboardView.swift.
+
+name: AnanseKeyboard
+options:
+  bundleIdPrefix: app.ananse
+  deploymentTarget:
+    iOS: "15.0"
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: "" # ← your Apple Developer Team ID
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "2.0"
+    CURRENT_PROJECT_VERSION: "3"
+
+targets:
+  AnanseApp:
+    type: application
+    platform: iOS
+    sources:
+      - App
+      - Shared/AnanseValueNotation.swift
+      - Keyboard/Ananse.swift
+      # The host app registers the bundled fonts itself so the try-it preview
+      # can render the draft in Ananse glyphs (AnanseDraftPreview). The
+      # registration helper lives in the App sources (AnanseDraftPreview.swift)
+      # because the extension's AnanseFont.swift depends on GlyphStyle, which
+      # only the Keyboard target compiles.
+      - path: Shared/Fonts
+        buildPhase: resources
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: Ananse
+        ITSAppUsesNonExemptEncryption: false
+        UIRequiresFullScreen: true
+        UILaunchScreen: {}
+        AnansePrivateAPIBaseURL: https://anansekeyboard.com/api
+        CFBundleURLTypes:
+          - CFBundleURLName: app.ananse.invite
+            CFBundleURLSchemes:
+              - ananse
+    entitlements:
+      path: App/AnanseApp.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.app.ananse.keyboard
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.ananse.keyboard
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - target: AnanseKeyboard
+
+  AnanseKeyboard:
+    type: app-extension
+    platform: iOS
+    sources:
+      - Keyboard
+      - Shared/AnanseValueNotation.swift
+      # One bundled .ttf per glyph style (New, Classic, Bow, Fork, Wave, Cup,
+      # Triangle, Circle) — see GlyphStyle in Ananse.swift.
+      - path: Shared/Fonts
+        buildPhase: resources
+    info:
+      path: Keyboard/Info.plist
+      properties:
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleDisplayName: Ananse Keyboard
+        CFBundleName: AnanseKeyboard
+        UIAppFonts:
+          - AnanseStrokeBook.ttf
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.keyboard-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).KeyboardViewController
+          NSExtensionAttributes:
+            IsASCIICapable: false
+            PrefersRightToLeft: false
+            PrimaryLanguage: en-US
+            RequestsOpenAccess: false
+    entitlements:
+      path: Keyboard/AnanseKeyboard.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.app.ananse.keyboard
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: app.ananse.keyboard.extension
+        GENERATE_INFOPLIST_FILE: NO

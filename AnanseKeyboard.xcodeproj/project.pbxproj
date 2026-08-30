@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F6A0EE653561225DB21ABF /* InviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEECE5A0BB678516C3AA95DE /* InviteView.swift */; };
+		0A8E9FE892F02CA97E1D2B1E /* AnanseValueNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080A11A85DD11CDF5A97F3A /* AnanseValueNotation.swift */; };
+		0F20B7683E985C897971C7AD /* AnanseStrokeBookTriangleBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40FE42E7948694842D6B18B5 /* AnanseStrokeBookTriangleBold.ttf */; };
+		1024A46CA094C8081324FAF5 /* AnanseStrokeBookNewBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3928A56C16425C34F9752237 /* AnanseStrokeBookNewBold.ttf */; };
+		113DB2CCEE373641D361B6A0 /* AnanseStrokeBookCircle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D0A5A90E2483B4D18C75406 /* AnanseStrokeBookCircle.ttf */; };
+		180A0470397714EA7D5AE3D2 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40333413D7E6EC365B8429D /* KeyboardViewController.swift */; };
+		191F7FDCCB99D3599D2F20FE /* AnanseStrokeBookForkBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CB931C5100CB43652368C12 /* AnanseStrokeBookForkBold.ttf */; };
+		1A5AE96F9BC3C45D179A09E8 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644DBB85BA8313A3EFBEE013 /* ChatView.swift */; };
+		1AB6A4DA223557CFC0546423 /* Ananse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC753F443B60E6040F07A9 /* Ananse.swift */; };
+		1BF6820ADD8CB782B7AC40CC /* AnanseStrokeBookBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38E80FA1D2371EA91FCFB4BF /* AnanseStrokeBookBold.ttf */; };
+		21D64EF349A4030C6CC4C37E /* PrivateIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A15605098C45B698DFDDAEC /* PrivateIdentity.swift */; };
+		24B5D0EA371F04905EFC4990 /* AnanseDraftPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57724A777C179F04695551B /* AnanseDraftPreview.swift */; };
+		25A726703077757C6CC5D672 /* AnanseStrokeBookWave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7060E4866BA0838EE9B29BB9 /* AnanseStrokeBookWave.ttf */; };
+		2648AC3906AA202CD5B478FA /* AnanseStrokeBookBow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA3ABD502E657255A899BB /* AnanseStrokeBookBow.ttf */; };
+		2DBD27683EE72F45C3FC0D0B /* AnanseStrokeBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54CA5548EF8BB77755003021 /* AnanseStrokeBook.ttf */; };
+		347D9706982918A6EAD1AC6B /* PrivateCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCCACF09DCA4EEF81FACABE /* PrivateCrypto.swift */; };
+		3E2A58AF580BBE5B9678519B /* AnanseStrokeBookCircleBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1EC28A178EE0E5208A6C3CF /* AnanseStrokeBookCircleBold.ttf */; };
+		44529B7EC7DA94611B05EA95 /* AnanseFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387DD0749DC0FCDB5180762E /* AnanseFont.swift */; };
+		45F1301853BD9DB3D6EDB886 /* AnanseKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1A3D45F2983EBEC9C160C375 /* AnanseKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4ABA1F39E666223C331CFC08 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BDEFBAAEAC14A54AED900F /* Theme.swift */; };
+		4AF327BE2353BB6415D2C842 /* AnanseStrokeBookTriangle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C73D25DE5C97E5CC53235 /* AnanseStrokeBookTriangle.ttf */; };
+		4BCCED8E8DEE982DDAD65611 /* AnanseValueNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080A11A85DD11CDF5A97F3A /* AnanseValueNotation.swift */; };
+		4D6B5448492AAB46AACE90B8 /* AnanseStrokeBookBowBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B067E6A8780FCD63023702 /* AnanseStrokeBookBowBold.ttf */; };
+		4F83973955CACBEE3923C2E7 /* AnanseStrokeBookWave.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7060E4866BA0838EE9B29BB9 /* AnanseStrokeBookWave.ttf */; };
+		505121EA6C61D88548CAD48B /* AnanseStrokeBookTriangleBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40FE42E7948694842D6B18B5 /* AnanseStrokeBookTriangleBold.ttf */; };
+		5AAEBDE445E2EEF748BD0780 /* AnanseStrokeBookCupBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5182387FC2ABA1182B9763D /* AnanseStrokeBookCupBold.ttf */; };
+		6D1F0DB952C4B5B2300790AB /* PrivateAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C66EC4A154CF24C43A19E /* PrivateAPIClient.swift */; };
+		74E16A40EB3963061A1A1C5B /* WriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2486847E4B895F53A8D728 /* WriterView.swift */; };
+		76903E75FFDDDCF7B9570500 /* AnanseStrokeBookWaveBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A22C2C6D806EAA83ABBE16E /* AnanseStrokeBookWaveBold.ttf */; };
+		799E795F5ACBB375B638D686 /* AnanseStrokeBook.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54CA5548EF8BB77755003021 /* AnanseStrokeBook.ttf */; };
+		8130B77322C4C4CE5F417C4C /* AnanseStrokeBookBowBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88B067E6A8780FCD63023702 /* AnanseStrokeBookBowBold.ttf */; };
+		86D6F33B22B737A029AD4DBF /* AnanseStrokeBookBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 38E80FA1D2371EA91FCFB4BF /* AnanseStrokeBookBold.ttf */; };
+		8AF478066A8D1B077D3F87F6 /* Ananse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC753F443B60E6040F07A9 /* Ananse.swift */; };
+		92F2C04655B7C0532C926D9F /* AnanseStrokeBookCircle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D0A5A90E2483B4D18C75406 /* AnanseStrokeBookCircle.ttf */; };
+		97C80AD1221C20339F00E22C /* PrivateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CA6C95D72E5BF936791EBF /* PrivateStore.swift */; };
+		980375E71A79EBAA75780A60 /* AnanseStrokeBookNew.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E04DF1A4C732E0A100FEFEAA /* AnanseStrokeBookNew.ttf */; };
+		9B79804FD0CD09B42E1C9B7A /* AnanseStrokeBookFork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5764B2C07B9A8453223B46C2 /* AnanseStrokeBookFork.ttf */; };
+		9C89D4E1336F639FD6CA006F /* AnanseStrokeBookBow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1ECA3ABD502E657255A899BB /* AnanseStrokeBookBow.ttf */; };
+		9DF93410636470A874CF1C86 /* InAppKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CCD5E367613500F2006D00 /* InAppKeyboardView.swift */; };
+		9E9B02731A16E2F0F2D60806 /* AnanseStrokeBookForkBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CB931C5100CB43652368C12 /* AnanseStrokeBookForkBold.ttf */; };
+		A0D51165BA360E7EC0AEE922 /* KeyboardSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2802526F33C30A38C43549 /* KeyboardSetupView.swift */; };
+		A75F9D927439171FAA64E77F /* AnanseStrokeBookNew.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E04DF1A4C732E0A100FEFEAA /* AnanseStrokeBookNew.ttf */; };
+		A89DBE8625D680C4AF990694 /* AnanseStrokeBookTriangle.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A1C73D25DE5C97E5CC53235 /* AnanseStrokeBookTriangle.ttf */; };
+		AA7DBB2FCE34C6C398C7C06D /* AnanseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF99E8F967D5C2070E3E1C6 /* AnanseApp.swift */; };
+		AE340A985AB6537A0AFA44E4 /* AnanseStrokeBookWaveBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A22C2C6D806EAA83ABBE16E /* AnanseStrokeBookWaveBold.ttf */; };
+		B18CE8D6A1D4C0AC9D6055BF /* AnanseStrokeBookCupBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5182387FC2ABA1182B9763D /* AnanseStrokeBookCupBold.ttf */; };
+		C0E70A1B4BAE8513F17C021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E873A175798D49B1DE2860D /* Assets.xcassets */; };
+		CFC3D6F627DF2CCC67ECB3BF /* AnanseStrokeBookCircleBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1EC28A178EE0E5208A6C3CF /* AnanseStrokeBookCircleBold.ttf */; };
+		D5197FC2184E2A8ED664519D /* MessengerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2D7B87509F4FA8D179013 /* MessengerView.swift */; };
+		D965AAC43D76126610C6E9A3 /* ConsentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4F8B8C380BA0E75395BF6C /* ConsentView.swift */; };
+		DBE900D7329CCA7EAC2F00E9 /* AnanseStrokeBookNewBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3928A56C16425C34F9752237 /* AnanseStrokeBookNewBold.ttf */; };
+		E0D02349EB9E6D43998E4AF3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5A39F844EC0280558C44AE /* HomeView.swift */; };
+		E157A8F2A5A5D8940682E757 /* AnanseStrokeBookCup.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B69118A00650CE801879A77 /* AnanseStrokeBookCup.ttf */; };
+		EDD2FB34BCE5FD0D35447EE4 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BA3A7B1F1CE005B2E86BE4 /* ContactsView.swift */; };
+		FA02849B10ECC0728878CB26 /* AnanseStrokeBookCup.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B69118A00650CE801879A77 /* AnanseStrokeBookCup.ttf */; };
+		FA48D0F81EC8E30B4E2F5A25 /* AnanseStrokeBookFork.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5764B2C07B9A8453223B46C2 /* AnanseStrokeBookFork.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AD4FA9FD0011FDD58C60B28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA3A7E179983070A20EF2FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26153E92CA637512533BDEB0;
+			remoteInfo = AnanseKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30FB6CE5E292E173ADE0D31A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45F1301853BD9DB3D6EDB886 /* AnanseKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14CA6C95D72E5BF936791EBF /* PrivateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateStore.swift; sourceTree = "<group>"; };
+		1A3D45F2983EBEC9C160C375 /* AnanseKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AnanseKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECA3ABD502E657255A899BB /* AnanseStrokeBookBow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookBow.ttf; sourceTree = "<group>"; };
+		246C66EC4A154CF24C43A19E /* PrivateAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAPIClient.swift; sourceTree = "<group>"; };
+		387DD0749DC0FCDB5180762E /* AnanseFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnanseFont.swift; sourceTree = "<group>"; };
+		38E80FA1D2371EA91FCFB4BF /* AnanseStrokeBookBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookBold.ttf; sourceTree = "<group>"; };
+		3928A56C16425C34F9752237 /* AnanseStrokeBookNewBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookNewBold.ttf; sourceTree = "<group>"; };
+		40FE42E7948694842D6B18B5 /* AnanseStrokeBookTriangleBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookTriangleBold.ttf; sourceTree = "<group>"; };
+		4A2486847E4B895F53A8D728 /* WriterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriterView.swift; sourceTree = "<group>"; };
+		4B69118A00650CE801879A77 /* AnanseStrokeBookCup.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookCup.ttf; sourceTree = "<group>"; };
+		4E873A175798D49B1DE2860D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54CA5548EF8BB77755003021 /* AnanseStrokeBook.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBook.ttf; sourceTree = "<group>"; };
+		5764B2C07B9A8453223B46C2 /* AnanseStrokeBookFork.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookFork.ttf; sourceTree = "<group>"; };
+		58D03EFBE7DE5B9CD2235A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5D0A5A90E2483B4D18C75406 /* AnanseStrokeBookCircle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookCircle.ttf; sourceTree = "<group>"; };
+		644DBB85BA8313A3EFBEE013 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		68E9C1D645ADF1F73C1AAD88 /* AnanseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnanseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A22C2C6D806EAA83ABBE16E /* AnanseStrokeBookWaveBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookWaveBold.ttf; sourceTree = "<group>"; };
+		7060E4866BA0838EE9B29BB9 /* AnanseStrokeBookWave.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookWave.ttf; sourceTree = "<group>"; };
+		7CB931C5100CB43652368C12 /* AnanseStrokeBookForkBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookForkBold.ttf; sourceTree = "<group>"; };
+		80BA3A7B1F1CE005B2E86BE4 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		879D0FEF30CF1F3947EB853B /* AnanseKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnanseKeyboard.entitlements; sourceTree = "<group>"; };
+		88B067E6A8780FCD63023702 /* AnanseStrokeBookBowBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookBowBold.ttf; sourceTree = "<group>"; };
+		8A15605098C45B698DFDDAEC /* PrivateIdentity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateIdentity.swift; sourceTree = "<group>"; };
+		8A1C73D25DE5C97E5CC53235 /* AnanseStrokeBookTriangle.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookTriangle.ttf; sourceTree = "<group>"; };
+		9E4F8B8C380BA0E75395BF6C /* ConsentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentView.swift; sourceTree = "<group>"; };
+		A5182387FC2ABA1182B9763D /* AnanseStrokeBookCupBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookCupBold.ttf; sourceTree = "<group>"; };
+		B1EC28A178EE0E5208A6C3CF /* AnanseStrokeBookCircleBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookCircleBold.ttf; sourceTree = "<group>"; };
+		B4FB30658EA4E425C973F645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDCCACF09DCA4EEF81FACABE /* PrivateCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateCrypto.swift; sourceTree = "<group>"; };
+		C57724A777C179F04695551B /* AnanseDraftPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnanseDraftPreview.swift; sourceTree = "<group>"; };
+		C57FDC12E83D8D045D7C7E89 /* AnanseApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnanseApp.entitlements; sourceTree = "<group>"; };
+		C8CCD5E367613500F2006D00 /* InAppKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppKeyboardView.swift; sourceTree = "<group>"; };
+		CC5A39F844EC0280558C44AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D8DC753F443B60E6040F07A9 /* Ananse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ananse.swift; sourceTree = "<group>"; };
+		DAB2D7B87509F4FA8D179013 /* MessengerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerView.swift; sourceTree = "<group>"; };
+		DFF99E8F967D5C2070E3E1C6 /* AnanseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnanseApp.swift; sourceTree = "<group>"; };
+		E04DF1A4C732E0A100FEFEAA /* AnanseStrokeBookNew.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AnanseStrokeBookNew.ttf; sourceTree = "<group>"; };
+		E080A11A85DD11CDF5A97F3A /* AnanseValueNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnanseValueNotation.swift; sourceTree = "<group>"; };
+		E40333413D7E6EC365B8429D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		ED2802526F33C30A38C43549 /* KeyboardSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSetupView.swift; sourceTree = "<group>"; };
+		F4BDEFBAAEAC14A54AED900F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FEECE5A0BB678516C3AA95DE /* InviteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D76E95735D941E9A36809B6 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				644DBB85BA8313A3EFBEE013 /* ChatView.swift */,
+				9E4F8B8C380BA0E75395BF6C /* ConsentView.swift */,
+				80BA3A7B1F1CE005B2E86BE4 /* ContactsView.swift */,
+				FEECE5A0BB678516C3AA95DE /* InviteView.swift */,
+				DAB2D7B87509F4FA8D179013 /* MessengerView.swift */,
+				246C66EC4A154CF24C43A19E /* PrivateAPIClient.swift */,
+				BDCCACF09DCA4EEF81FACABE /* PrivateCrypto.swift */,
+				8A15605098C45B698DFDDAEC /* PrivateIdentity.swift */,
+				14CA6C95D72E5BF936791EBF /* PrivateStore.swift */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		522E17F0BAACBD3959CA8601 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E080A11A85DD11CDF5A97F3A /* AnanseValueNotation.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5DAEC847AF14887BC53B0B9D = {
+			isa = PBXGroup;
+			children = (
+				9C6056168D5AC7FFFAC8D52B /* App */,
+				9256722A4D5BBD9C0334E10D /* Fonts */,
+				C06E3F9ADCB6D211FC44F585 /* Keyboard */,
+				522E17F0BAACBD3959CA8601 /* Shared */,
+				97656A54E74C5E5632B3505D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9256722A4D5BBD9C0334E10D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54CA5548EF8BB77755003021 /* AnanseStrokeBook.ttf */,
+				38E80FA1D2371EA91FCFB4BF /* AnanseStrokeBookBold.ttf */,
+				1ECA3ABD502E657255A899BB /* AnanseStrokeBookBow.ttf */,
+				88B067E6A8780FCD63023702 /* AnanseStrokeBookBowBold.ttf */,
+				5D0A5A90E2483B4D18C75406 /* AnanseStrokeBookCircle.ttf */,
+				B1EC28A178EE0E5208A6C3CF /* AnanseStrokeBookCircleBold.ttf */,
+				4B69118A00650CE801879A77 /* AnanseStrokeBookCup.ttf */,
+				A5182387FC2ABA1182B9763D /* AnanseStrokeBookCupBold.ttf */,
+				5764B2C07B9A8453223B46C2 /* AnanseStrokeBookFork.ttf */,
+				7CB931C5100CB43652368C12 /* AnanseStrokeBookForkBold.ttf */,
+				E04DF1A4C732E0A100FEFEAA /* AnanseStrokeBookNew.ttf */,
+				3928A56C16425C34F9752237 /* AnanseStrokeBookNewBold.ttf */,
+				8A1C73D25DE5C97E5CC53235 /* AnanseStrokeBookTriangle.ttf */,
+				40FE42E7948694842D6B18B5 /* AnanseStrokeBookTriangleBold.ttf */,
+				7060E4866BA0838EE9B29BB9 /* AnanseStrokeBookWave.ttf */,
+				6A22C2C6D806EAA83ABBE16E /* AnanseStrokeBookWaveBold.ttf */,
+			);
+			name = Fonts;
+			path = Shared/Fonts;
+			sourceTree = "<group>";
+		};
+		97656A54E74C5E5632B3505D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E9C1D645ADF1F73C1AAD88 /* AnanseApp.app */,
+				1A3D45F2983EBEC9C160C375 /* AnanseKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C6056168D5AC7FFFAC8D52B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C57FDC12E83D8D045D7C7E89 /* AnanseApp.entitlements */,
+				DFF99E8F967D5C2070E3E1C6 /* AnanseApp.swift */,
+				C57724A777C179F04695551B /* AnanseDraftPreview.swift */,
+				4E873A175798D49B1DE2860D /* Assets.xcassets */,
+				CC5A39F844EC0280558C44AE /* HomeView.swift */,
+				C8CCD5E367613500F2006D00 /* InAppKeyboardView.swift */,
+				58D03EFBE7DE5B9CD2235A03 /* Info.plist */,
+				ED2802526F33C30A38C43549 /* KeyboardSetupView.swift */,
+				F4BDEFBAAEAC14A54AED900F /* Theme.swift */,
+				4A2486847E4B895F53A8D728 /* WriterView.swift */,
+				1D76E95735D941E9A36809B6 /* Private */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C06E3F9ADCB6D211FC44F585 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D8DC753F443B60E6040F07A9 /* Ananse.swift */,
+				387DD0749DC0FCDB5180762E /* AnanseFont.swift */,
+				879D0FEF30CF1F3947EB853B /* AnanseKeyboard.entitlements */,
+				B4FB30658EA4E425C973F645 /* Info.plist */,
+				E40333413D7E6EC365B8429D /* KeyboardViewController.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26153E92CA637512533BDEB0 /* AnanseKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297A6A7E262D68907EE63751 /* Build configuration list for PBXNativeTarget "AnanseKeyboard" */;
+			buildPhases = (
+				E02B2174D639328B3E6EBA76 /* Sources */,
+				10B737DF1FE2E2E979AA8D94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnanseKeyboard;
+			packageProductDependencies = (
+			);
+			productName = AnanseKeyboard;
+			productReference = 1A3D45F2983EBEC9C160C375 /* AnanseKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		61F49156A32AE643ED6BD8D8 /* AnanseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1C0D2E91922D0DEB058421 /* Build configuration list for PBXNativeTarget "AnanseApp" */;
+			buildPhases = (
+				E2234C8AB18C5B16F74165F9 /* Sources */,
+				DB014E2D81E1AD3641D64927 /* Resources */,
+				30FB6CE5E292E173ADE0D31A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D26D35694AB62AF572A1D2C /* PBXTargetDependency */,
+			);
+			name = AnanseApp;
+			packageProductDependencies = (
+			);
+			productName = AnanseApp;
+			productReference = 68E9C1D645ADF1F73C1AAD88 /* AnanseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA3A7E179983070A20EF2FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 47ED7E267DEC8AEC91554B4A /* Build configuration list for PBXProject "AnanseKeyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5DAEC847AF14887BC53B0B9D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 97656A54E74C5E5632B3505D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61F49156A32AE643ED6BD8D8 /* AnanseApp */,
+				26153E92CA637512533BDEB0 /* AnanseKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B737DF1FE2E2E979AA8D94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799E795F5ACBB375B638D686 /* AnanseStrokeBook.ttf in Resources */,
+				1BF6820ADD8CB782B7AC40CC /* AnanseStrokeBookBold.ttf in Resources */,
+				9C89D4E1336F639FD6CA006F /* AnanseStrokeBookBow.ttf in Resources */,
+				4D6B5448492AAB46AACE90B8 /* AnanseStrokeBookBowBold.ttf in Resources */,
+				92F2C04655B7C0532C926D9F /* AnanseStrokeBookCircle.ttf in Resources */,
+				CFC3D6F627DF2CCC67ECB3BF /* AnanseStrokeBookCircleBold.ttf in Resources */,
+				E157A8F2A5A5D8940682E757 /* AnanseStrokeBookCup.ttf in Resources */,
+				5AAEBDE445E2EEF748BD0780 /* AnanseStrokeBookCupBold.ttf in Resources */,
+				9B79804FD0CD09B42E1C9B7A /* AnanseStrokeBookFork.ttf in Resources */,
+				9E9B02731A16E2F0F2D60806 /* AnanseStrokeBookForkBold.ttf in Resources */,
+				980375E71A79EBAA75780A60 /* AnanseStrokeBookNew.ttf in Resources */,
+				DBE900D7329CCA7EAC2F00E9 /* AnanseStrokeBookNewBold.ttf in Resources */,
+				A89DBE8625D680C4AF990694 /* AnanseStrokeBookTriangle.ttf in Resources */,
+				0F20B7683E985C897971C7AD /* AnanseStrokeBookTriangleBold.ttf in Resources */,
+				25A726703077757C6CC5D672 /* AnanseStrokeBookWave.ttf in Resources */,
+				AE340A985AB6537A0AFA44E4 /* AnanseStrokeBookWaveBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB014E2D81E1AD3641D64927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBD27683EE72F45C3FC0D0B /* AnanseStrokeBook.ttf in Resources */,
+				86D6F33B22B737A029AD4DBF /* AnanseStrokeBookBold.ttf in Resources */,
+				2648AC3906AA202CD5B478FA /* AnanseStrokeBookBow.ttf in Resources */,
+				8130B77322C4C4CE5F417C4C /* AnanseStrokeBookBowBold.ttf in Resources */,
+				113DB2CCEE373641D361B6A0 /* AnanseStrokeBookCircle.ttf in Resources */,
+				3E2A58AF580BBE5B9678519B /* AnanseStrokeBookCircleBold.ttf in Resources */,
+				FA02849B10ECC0728878CB26 /* AnanseStrokeBookCup.ttf in Resources */,
+				B18CE8D6A1D4C0AC9D6055BF /* AnanseStrokeBookCupBold.ttf in Resources */,
+				FA48D0F81EC8E30B4E2F5A25 /* AnanseStrokeBookFork.ttf in Resources */,
+				191F7FDCCB99D3599D2F20FE /* AnanseStrokeBookForkBold.ttf in Resources */,
+				A75F9D927439171FAA64E77F /* AnanseStrokeBookNew.ttf in Resources */,
+				1024A46CA094C8081324FAF5 /* AnanseStrokeBookNewBold.ttf in Resources */,
+				4AF327BE2353BB6415D2C842 /* AnanseStrokeBookTriangle.ttf in Resources */,
+				505121EA6C61D88548CAD48B /* AnanseStrokeBookTriangleBold.ttf in Resources */,
+				4F83973955CACBEE3923C2E7 /* AnanseStrokeBookWave.ttf in Resources */,
+				76903E75FFDDDCF7B9570500 /* AnanseStrokeBookWaveBold.ttf in Resources */,
+				C0E70A1B4BAE8513F17C021E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02B2174D639328B3E6EBA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AF478066A8D1B077D3F87F6 /* Ananse.swift in Sources */,
+				44529B7EC7DA94611B05EA95 /* AnanseFont.swift in Sources */,
+				4BCCED8E8DEE982DDAD65611 /* AnanseValueNotation.swift in Sources */,
+				180A0470397714EA7D5AE3D2 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2234C8AB18C5B16F74165F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB6A4DA223557CFC0546423 /* Ananse.swift in Sources */,
+				AA7DBB2FCE34C6C398C7C06D /* AnanseApp.swift in Sources */,
+				24B5D0EA371F04905EFC4990 /* AnanseDraftPreview.swift in Sources */,
+				0A8E9FE892F02CA97E1D2B1E /* AnanseValueNotation.swift in Sources */,
+				1A5AE96F9BC3C45D179A09E8 /* ChatView.swift in Sources */,
+				D965AAC43D76126610C6E9A3 /* ConsentView.swift in Sources */,
+				EDD2FB34BCE5FD0D35447EE4 /* ContactsView.swift in Sources */,
+				E0D02349EB9E6D43998E4AF3 /* HomeView.swift in Sources */,
+				9DF93410636470A874CF1C86 /* InAppKeyboardView.swift in Sources */,
+				03F6A0EE653561225DB21ABF /* InviteView.swift in Sources */,
+				A0D51165BA360E7EC0AEE922 /* KeyboardSetupView.swift in Sources */,
+				D5197FC2184E2A8ED664519D /* MessengerView.swift in Sources */,
+				6D1F0DB952C4B5B2300790AB /* PrivateAPIClient.swift in Sources */,
+				347D9706982918A6EAD1AC6B /* PrivateCrypto.swift in Sources */,
+				21D64EF349A4030C6CC4C37E /* PrivateIdentity.swift in Sources */,
+				97C80AD1221C20339F00E22C /* PrivateStore.swift in Sources */,
+				4ABA1F39E666223C331CFC08 /* Theme.swift in Sources */,
+				74E16A40EB3963061A1A1C5B /* WriterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D26D35694AB62AF572A1D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26153E92CA637512533BDEB0 /* AnanseKeyboard */;
+			targetProxy = 3AD4FA9FD0011FDD58C60B28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F9AF27D9A6D91EC16EE13D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3758C79A6715E6CF35ACAAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		45C18CD81F9E47A6884EC3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/AnanseApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KTU85U9S8J;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ananse.keyboard;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6ABA9AAD523AA881C782E49D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/AnanseKeyboard.entitlements;
+				DEVELOPMENT_TEAM = KTU85U9S8J;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ananse.keyboard.extension;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D723DB6152E4BA446EA53FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/AnanseApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = KTU85U9S8J;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ananse.keyboard;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F0C3F23CF28F399E352AAABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/AnanseKeyboard.entitlements;
+				DEVELOPMENT_TEAM = KTU85U9S8J;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ananse.keyboard.extension;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297A6A7E262D68907EE63751 /* Build configuration list for PBXNativeTarget "AnanseKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABA9AAD523AA881C782E49D /* Debug */,
+				F0C3F23CF28F399E352AAABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2E1C0D2E91922D0DEB058421 /* Build configuration list for PBXNativeTarget "AnanseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D723DB6152E4BA446EA53FDB /* Debug */,
+				45C18CD81F9E47A6884EC3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47ED7E267DEC8AEC91554B4A /* Build configuration list for PBXProject "AnanseKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9AF27D9A6D91EC16EE13D7 /* Debug */,
+				3758C79A6715E6CF35ACAAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA3A7E179983070A20EF2FC /* Project object */;
+}
